@@ -1,11 +1,12 @@
 import React from "react";
 
+import TextForm from "./component/TextForm"
 const App = () => {
     return (
         <>
-        <h1>Hello sam</h1>
+        <TextForm />
         </>
-    )
+    );
 }
 
 export default App; 
